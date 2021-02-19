@@ -25,7 +25,7 @@
     top: 0;
     background-color: transparent;
     border: none;
-    background-image: url('/assets/burger.svg');
+    background-image: url('./assets/burger.svg');
     width: 33px;
     height: 19px;
   }
@@ -33,6 +33,8 @@
     position: relative;
   }
   .open {
+    padding-left: 20px;
+    padding-bottom: 40px;
     display: block;
     margin: 0;
     position: fixed;
@@ -59,7 +61,7 @@
     height: 22px;
     background-position: center;
     background-size: contain;
-    background-image: url('/assets/close.svg');
+    background-image: url('./assets/close.svg');
   }
 }
 .title {
@@ -157,7 +159,7 @@
 
 .skills__stars_item {
   display: block;
-  background-image: url('/assets/Star.svg');
+  background-image: url('./assets/Star.svg');
   width: 26px;
   height: 26px;
   background-position: center;
@@ -225,7 +227,7 @@
 
 .contacts__btn {
   display: block;
-  width: 316px;
+  width: 240px;
   height: 42px;
   left: 29px;
   top: 4102px;
@@ -259,17 +261,17 @@
   background-position: center;
 }
 .linkedin {
-  background-image: url('/assets/Group\ 2.svg');
+  background-image: url('./assets/Group\ 2.svg');
 }
 .instagram {
-  background-image: url('/assets/Group\ 8.svg');
+  background-image: url('./assets/Group\ 8.svg');
 }
 .behance {
-  background-image: url('/assets/Group\ 9.svg');
+  background-image: url('./assets/Group\ 9.svg');
 }
 
 .dribble {
-  background-image: url('/assets/Group\ 10.svg');
+  background-image: url('./assets/Group\ 10.svg');
 }
 
 .contacts__sub_wrapper {
