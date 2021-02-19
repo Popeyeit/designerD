@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>study project</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item_burger">
+              <button class="close__burger"></button>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About me</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="person">
+          <button class="burger"></button>
+          <h1 class="person__title title">Deva Nova</h1>
+          <p class="description person__description">
+            UX | UI designer 24 years old, Minsk
+          </p>
+
+          <picture>
+            <source media="(min-width: 960px)" srcset="/assets/author.png" />
+
+            <img
+              src="/assets/mob__photo.png"
+              alt="person"
+              class="person__img"
+            />
+          </picture>
+        </div>
+      </div>
+    </header>
+    <section class="about">
+      <div class="container">
+        <h2 id="about" class="about__title title">About me</h2>
+        <p class="about__description description">
+          <span
+            >Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design
+            and everything connected with it.</span
+          >
+
+          <span
+            >I'm studying at courses "Web and mobile design interfaces" in
+            IT-Academy.</span
+          >
+
+          <span
+            >Ready to implement excellent projects with wonderful people.</span
+          >
+        </p>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="container">
+        <h2 class="skills__title" id="skills">Skills</h2>
+        <p class="skills__description">I work in such programs as</p>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <img src="/assets/PR.svg" alt="photoshop" class="skills__img" />
+            <p class="item_description">Adobe Photoshop</p>
+            <div class="skills__stars">
+              <span class="skills__stars_item"></span>
+              <span class="skills__stars_item"></span>
+              <span class="skills__stars_item"></span>
+              <span class="skills__stars_item"></span>
+              <span
+                class="skills__stars_item skills__stars_item_transparent"
+              ></span>
+            </div>
+          </li>
+          <li class="skills__item">
+            <img src="/assets/AI.svg" alt="illustrator" class="skills__img" />
+            <p class="item_description">Adobe Illustrator</p>
+            <div class="skills__stars">
+              <span class="skills__stars_item"></span>
+              <span class="skills__stars_item"></span>
+              <span class="skills__stars_item"></span>
+              <span
+                class="skills__stars_item skills__stars_item_transparent"
+              ></span>
+              <span
+                class="skills__stars_item skills__stars_item_transparent"
+              ></span>
+            </div>
+          </li>
+          <li class="skills__item">
+            <img src="/assets/AE.svg" alt="after effects" class="skills__img" />
+            <p class="item_description">Adobe After Effects</p>
+            <div class="skills__stars">
+              <span class="skills__stars_item"></span>
+              <span class="skills__stars_item"></span>
+              <span class="skills__stars_item"></span>
+              <span class="skills__stars_item"></span>
+              <span
+                class="skills__stars_item skills__stars_item_transparent"
+              ></span>
+            </div>
+          </li>
+          <li class="skills__item">
+            <img src="/assets/Figma.svg" alt="figma" class="skills__img" />
+            <p class="item_description">Figma</p>
+            <div class="skills__stars">
+              <span class="skills__stars_item"></span>
+              <span class="skills__stars_item"></span>
+              <span class="skills__stars_item"></span>
+              <span class="skills__stars_item"></span>
+              <span
+                class="skills__stars_item skills__stars_item_transparent"
+              ></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="portfolio__title title">Portfolio</h2>
+        <ul class="portfolio__list">
+          <li class="portfolio__item">
+            <img
+              src="/assets/shopping.jpg"
+              alt="shopping site"
+              class="portfolio__img"
+            /><a href="#" class="portfolio__link"
+              >Online fashion store - Homepage</a
+            >
+          </li>
+          <li class="portfolio__item">
+            <img
+              src="/assets/reebok_web.jpg"
+              alt="reebok site"
+              class="portfolio__img"
+            /><a href="#" class="portfolio__link">Reebok Store - Concept</a>
+          </li>
+          <li class="portfolio__item">
+            <img
+              src="/assets/camera.jpg"
+              alt="braun site"
+              class="portfolio__img"
+            /><a href="#" class="portfolio__link"
+              >Braun Landing Page - Concept</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="contacts">
+      <div class="container">
+        <h2 class="contacts__title title">Contacts</h2>
+        <p class="contacts__description description">
+          Want to know more or just chat? You are welcome!
+        </p>
+        <button class="contacts__btn" type="button">Send message</button>
+        <ul class="social__list">
+          <li class="social__item">
+            <a href="#" target="_blank" class="social__link linkedin"></a>
+          </li>
+          <li class="social__item">
+            <a href="#" target="_blank" class="social__link instagram"></a>
+          </li>
+          <li class="social__item">
+            <a href="#" target="_blank" class="social__link behance"></a>
+          </li>
+          <li class="social__item">
+            <a href="#" target="_blank" class="social__link dribble"></a>
+          </li>
+        </ul>
+        <div class="contacts__sub_wrapper">
+          <p class="contacts__offer">Link on me</p>
+          <a href="#" class="social__link_text" target="_blank">Linkedin</a>
+          <a href="#" class="social__link_text" target="_blank">Instagram</a>
+          <a href="#" class="social__link_text" target="_blank">Behance</a>
+          <a href="#" class="social__link_text" target="_blank">Dribble</a>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/script.js" type="module"></script>
+  </body>
+</html>
