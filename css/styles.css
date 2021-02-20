@@ -25,7 +25,7 @@
     top: 0;
     background-color: transparent;
     border: none;
-    background-image: url('./assets/burger.svg');
+    background-image: url('/assets/burger.svg');
     width: 33px;
     height: 19px;
   }
@@ -61,7 +61,7 @@
     height: 22px;
     background-position: center;
     background-size: contain;
-    background-image: url('./assets/close.svg');
+    background-image: url('/assets/close.svg');
   }
 }
 .title {
